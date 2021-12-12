@@ -99,7 +99,7 @@ int main() {
 			}
 			if (owner_and_nickname.empty())
 				fout << "No owners and nicknames for such type of pet. " << endl;
-			else{
+			else {
 				fout << "Owners: ";
 				for (const auto& item : owner_and_nickname)
 					fout << item.first << " , " << endl;
